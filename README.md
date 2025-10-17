@@ -20,7 +20,9 @@ In Self Hosted mode, you bring your own infrastructure. You pick and choose the 
 
 ## Example
 
-Prompt: "Build a blog platform where users can sign up, create blog posts, and comment on posts. Add moderation for comments and email notifications when someone replies to a comment."
+Prompt: 
+> Build a blog platform where users can sign up, create blog posts, and comment on posts.
+> Add moderation for comments and email notifications when someone replies to a comment.
 
 AppGraph might produce something like this:
 ```
