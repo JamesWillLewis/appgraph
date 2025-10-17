@@ -16,7 +16,7 @@ AppGraph comes in 2 flavors.
 
 ### Managed AppGraph
 
-In Managed AppGraph, AppGraph handles everything needed to build, host & operate your application. You submit your application graphs through http://appgraph.io, and Managed Appgraph handles all build tasks, infrastructure management, & operations.
+In Managed AppGraph, AppGraph handles everything needed to build, host & operate your application. You submit your application graphs through http://appgraph.io, and Managed Appgraph handles all build tasks, infrastructure management, & operations. You pay-as-you-go for the underlying infrastructure costs.
 
 ### Self Hosted
 
