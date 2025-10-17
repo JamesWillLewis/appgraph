@@ -4,7 +4,19 @@ AppGraph is a language & framework for expressing an entire web application as a
 
 AppGraph takes care of platform, framework, infrastructure, scaling, security, networking, & CI/CD concerns. Begin with a prompt of what you want the application to do. AppGraph produces a JSON representation of a system graph describing how each component should behave & interact. Refine the graph as needed for your use case, and let AppGraph build out & deploy the entire application. 
 
-The graph is the source of truth - make changes as needed, and AppGraph keeps the service in sync with the specification.
+The graph is the source of truth - make changes as needed, and AppGraph keeps the service in sync with the specification. The application graph can represent much more than just the intention and interactions of components; it can be used to enforce end-to-end authorization & encryption rules, apply granular scaling policies, provide insights, observability & request tracing, and much more - all through a configurable, open-source plugin interface.
+
+## Variants
+
+AppGraph comes in 2 flavors. 
+
+### Managed AppGraph
+
+In Managed AppGraph, AppGraph handles everything needed to build, host & operate your application. You submit your application graphs through http://appgraph.io, and Managed Appgraph handles all build tasks, infrastructure management, & operations.
+
+### Self Hosted
+
+In Self Hosted mode, you bring your own infrastructure. You pick and choose the specific technologies (language, platform, framework, hosting) you want (where supported). You have complete control over everything. 
 
 ## Example
 
