@@ -1,6 +1,8 @@
 # appgraph
 
-AppGraph is a language & framework for expressing an entire web application as a graph of interconnected agentic nodes. Nodes can encapsulate behaviors as complex as a full microservice, and leverages generative AI to perform complex, fully agentic workloads without needing to write any code. You can think of AppGraph as a very high-level programming language that allows you to express the behaviors & expectations of a system in natural langauge, and the "compilation" step generates the supporting code & infrastructure through large-language models. 
+AppGraph is a language & framework for expressing an entire web application as a graph of interconnected agentic nodes. Nodes can encapsulate behaviors as complex as a full microservice, and leverages generative AI to perform complex, fully agentic workloads without needing to write any code. 
+
+You can think of AppGraph as a very high-level programming language that allows you to express the behaviors & expectations of a system in natural langauge, and the "compilation" step generates the supporting code & infrastructure through large-language models. 
 
 AppGraph takes care of platform, framework, infrastructure, scaling, security, networking, & CI/CD concerns. Begin with a prompt of what you want the application to do. AppGraph produces a JSON representation of a system graph describing how each component should behave & interact. Refine the graph as needed for your use case, and let AppGraph build out & deploy the entire application. 
 
