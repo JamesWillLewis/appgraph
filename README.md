@@ -1,2 +1,3 @@
 # appgraph
-Model your application as a graph, with a single source of truth for agents, business logic, dependencies, data, auth, observability, and more. Use AI to build it.
+
+AppGraph is a language & framework for expressing your application as a graph of interconnected agentic nodes. Nodes can encapsulate behaviors as complex as a full micro-services, and utilizes generative AI to perform complex workloads.
